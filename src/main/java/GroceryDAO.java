@@ -19,7 +19,7 @@ public class GroceryDAO {
 
 
     /**
-     * TODO: Select all of the rows of the Grocery table.
+     * DONE: Select all of the rows of the Grocery table.
      * You only need to change the sql String, the rest of the method is already complete.
      * @return a List of all the groceries contained within the database.
      */
@@ -40,7 +40,7 @@ public class GroceryDAO {
         return groceries;
     }
     /**
-     * TODO: Insert a new row into the Grocery table, which contains a column named grocery_name.
+     * DONE: Insert a new row into the Grocery table, which contains a column named grocery_name.
      * A parameter groceryName is also provided, which should be the value used for grocery_name when inserting a
      * grocery. For instance, calling groceryDAO.addGrocery("bread"); should insert a record into the grocery table
      * with the value 'bread' for the grocery_name column.
